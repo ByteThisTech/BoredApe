@@ -14,7 +14,7 @@ export default function IndexScene(){
  * Loaders
  */
 // Texture loadern
-
+//
     // const controls = useControls({ position: - 2 })
     // console.log(controls.position)
     return (
