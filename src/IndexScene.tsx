@@ -1,7 +1,10 @@
 import { Stage, ContactShadows, AccumulativeShadows, Backdrop, RandomizedLight, Sphere, Sky, useTexture, useGLTF, OrbitControls, Environment, Plane, PerspectiveCamera, GradientTexture, MeshReflectorMaterial } from "@react-three/drei";
 
 import { Ape_Animation } from "./assets/BoredApe_Animations";
+
 import { Ape_NoAnimation } from "./assets/BoredApe_NoAnimations";
+
+import { Manequin_Animated_01t } from "./assets/Manequin_Animated_01t";
 import * as THREE from "three";
 
 import { useRef } from "react";
@@ -58,8 +61,9 @@ export default function IndexScene(){
    
       {/* Models =========================================== */}
        
-       <Ape_NoAnimation position={[0, .01, 0]} scale={2}/> 
-    
+       {/* <Ape_NoAnimation position={[0, .01, 0]} scale={2}/>  */}
+       <Manequin_Animated_01t position={[0, .01, 0]} scale={2}/> 
+       
       
       
       </>
